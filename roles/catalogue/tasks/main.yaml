@@ -1,6 +1,6 @@
-- name: print the varibles 
-  debug: 
-    msg: "COURSE: {{ course}}, DURATION: {{ duration }}, TRAINER: {{ trainer}}"
+# - name: print the varibles 
+#   debug: 
+#     msg: "COURSE: {{ course}}, DURATION: {{ duration }}, TRAINER: {{ trainer}}"
 
 - name: application set up 
   include_role: 
