@@ -1,6 +1,6 @@
 - name: application set up 
   include_role:
-    name: comman
+    name: common
     tasks_from: app-setup
 
 - name: python setup 
