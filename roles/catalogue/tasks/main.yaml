@@ -41,5 +41,5 @@
 
 - name: restart the application
   include_role: 
-    name: comman
+    name: common
     tasks_from: restart 
