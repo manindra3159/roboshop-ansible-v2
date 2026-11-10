@@ -5,7 +5,7 @@
 
 - name: python setup 
   include_role: 
-    name: comman
+    name: common
     tasks_from: python
 
 - name: systemd setup 
