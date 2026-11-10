@@ -9,7 +9,7 @@
 
 - name: nodejs setup 
   include_role: 
-    name: comman
+    name: common
     tasks_from: nodejs
 
 - name: systemd setup 
