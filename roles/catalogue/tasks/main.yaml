@@ -14,8 +14,8 @@
 
 - name: systemd setup 
   include_role:
-  name: comman 
-  tasks_from: systemd-setup
+   name: comman 
+   tasks_from: systemd-setup
 
 - name: copy mongo repo
   copy:
