@@ -1,0 +1,17 @@
+ansible_user: "{{ vault_ansible_user }}"
+ansible_password: "{{ vault_ansible_password }}"
+mysql_root_password: "{{ vault_mysql_root_password }}"
+rabbitmq_user: "{{ vault_rabbitmq_user }}"
+rabbitmq_password: "{{ vault_rabbitmq_password }}"
+shipping_db_user: "{{ vault_shipping_db_user }}"
+shipping_db_password: "{{ vault_shipping_db_password }}"
+
+mongodb_host: mongodb.mani315.store
+redis_host: redis.mani315.store
+mysql_host: mysql.mani315.store
+rabbitmq_host: rabbitmq.mani315.store
+catalogue_host: catalogue.mani315.store
+user_host: user.mani315.store
+cart_host: cart.mani315.store
+shipping_host: shipping.mani315.store
+payment_host: payment.mani315.store

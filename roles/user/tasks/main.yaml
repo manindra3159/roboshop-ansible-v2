@@ -1,0 +1,19 @@
+- name: application set up
+  include_role:
+    name: comman
+    tasks_from: app_setup
+
+- name: nodejs set up 
+  include_role: 
+    name: comman 
+    tasks_from: nodejs
+
+- name: systemd setup 
+  include_role: 
+    name: comman
+    tasks_from: systemd-setup
+
+- name: restart application
+  include_role: 
+    name: comman
+    tasks_from: restart
